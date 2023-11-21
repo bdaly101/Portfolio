@@ -1,0 +1,91 @@
+header {
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    height: 60px; 
+    padding: 10px; 
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+section {
+    margin-top: 70px;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav a {
+    padding: 10px;
+    color: white; 
+    text-decoration: none; 
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+  }
+
+.column {
+    display: flex;
+    flex-direction: column
+  }
+
+main {
+    padding-top: 70px;
+}
+
+.sect-title {
+    border-color: black;
+    border-right: solid;
+    padding-right: 2%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px;
+}
+
+.proj-box {
+    width: 100px; 
+    height: 100px; 
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px; 
+    border-radius: 5px; 
+}
+
+.contacts {
+    display: flex;
+    
+}
+
+.contacts a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cont-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
